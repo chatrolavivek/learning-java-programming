@@ -10,7 +10,7 @@ public class SmallTen {
 
 		Scanner s = new Scanner(System.in);
 
-		int i = 1, n, smallNum = 0;
+		int i = 1, n, smallNum = Integer.MAX_VALUE;
 
 		while (i <= 10) {
 			System.out.println("Enter a number:");
