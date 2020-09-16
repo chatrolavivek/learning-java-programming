@@ -1,6 +1,6 @@
 package practice;
 
-public class ContinueDemo {
+public class DemoContinue {
 
 	public static void main(String[] args) {
 

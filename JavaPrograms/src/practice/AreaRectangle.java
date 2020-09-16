@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class RectangleArea {
+public class AreaRectangle {
 
 	public static void main(String[] args) {
 

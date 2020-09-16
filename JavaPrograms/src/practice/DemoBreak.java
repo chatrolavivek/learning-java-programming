@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class BreakDemo {
+public class DemoBreak {
 
 	public static void main(String[] args) {
 

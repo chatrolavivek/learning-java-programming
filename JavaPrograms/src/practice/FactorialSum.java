@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class SumFactorial {
+public class FactorialSum {
 
 	static int factorial;
 

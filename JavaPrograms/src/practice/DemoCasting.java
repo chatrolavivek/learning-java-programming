@@ -1,6 +1,6 @@
 package practice;
 
-public class CastingTest {
+public class DemoCasting {
 
 	static int x; // default value = 0
 	static String str; // default value = null
@@ -15,7 +15,7 @@ public class CastingTest {
 
 		// Default Value
 
-		CastingTest obj = new CastingTest();
+		DemoCasting obj = new DemoCasting();
 
 		System.out.println(x);
 		System.out.println(obj.y);

@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Locale;
 
-public class PrintFDemo {
+public class DemoPrintF {
 
 	public static void main(String[] args) {
 
