@@ -16,18 +16,18 @@ public class SumFactorial {
 		int sum = 0, f;
 
 		System.out.println("-------------------");
-		System.out.println("Number  Factorial");
+		System.out.printf("%7s %11s%n", "Number", "Factorial");
 		System.out.println("-------------------");
 
 		for (int i = 1; i <= n; i++) {
 			factorial = 1;
 			f = getFactorial(i);
-			System.out.println("   " + i + "       " + f);
+			System.out.printf("%4d %9d%n", i, f);
 			sum = sum + f;
 		}
 
 		System.out.println("-------------------");
-		System.out.println("   Sum  =  " + sum);
+		System.out.printf("%4s %2s %7d%n", "Sum", "=", sum);
 		System.out.println("-------------------");
 
 	}
