@@ -10,7 +10,7 @@ public class BigTen {
 
 		Scanner s = new Scanner(System.in);
 
-		int i = 1, n, big = 0;
+		int i = 1, n, big = Integer.MIN_VALUE;
 
 		while (i <= 10) {
 			System.out.println("Enter a number: ");
