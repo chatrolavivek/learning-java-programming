@@ -7,7 +7,7 @@ import com.account.Account;
 public class AccountMain {
 
 	public static void main(String[] args) {
-		// Tests com.account.account class
+		// Tests com.account.Account class
 
 		Scanner s = new Scanner(System.in);
 
