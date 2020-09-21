@@ -49,6 +49,7 @@ public class AccountMain {
 				System.out.println("\nThank you for banking with us today :)");
 				System.exit(1);
 			default:
+				System.out.println("Please choose the right option");
 				break;
 			}
 		} while (userChoice != 4);
