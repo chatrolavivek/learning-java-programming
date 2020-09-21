@@ -24,18 +24,20 @@ public class Account {
 	// Adds given amount to the available balance
 	public void deposit(int depositAmount) {
 		acctBalance += depositAmount;
+		System.out.println(depositAmount + " CAD deposited!");
 	}
 
 	// Subtracts the given amount from the available balance
 	public void withdraw(int withdrawAmount) {
 		acctBalance -= withdrawAmount;
+		System.out.println(withdrawAmount + " CAD withdrawn!");
 	}
 
 	// Displays accountNo, accountType, accountBalance. Create a class Main1 which
 	public void dispAccountDetails() {
 		System.out.println("Account ID: " + acctId);
 		System.out.println("Account Type: " + acctType);
-		System.out.println("Account Balance: " + acctBalance);
+		System.out.println("Account Balance: " + acctBalance + " CAD");
 	}
 
 }

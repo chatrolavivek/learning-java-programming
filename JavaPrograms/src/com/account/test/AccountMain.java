@@ -40,17 +40,23 @@ public class AccountMain {
 			case 2:
 				System.out.println("Enter the amount to be withdrawn: ");
 				withdrawAmount = s.nextInt();
-				userAcc.withdraw(withdrawAmount);
+				System.out.println(userAcc.getBalance());
+				System.out.println(withdrawAmount);
+				if (withdrawAmount > userAcc.getBalance()) {
+					System.out.println("Sorry! You don't have enough balance ):");
+				} else {
+					userAcc.withdraw(withdrawAmount);
+				}
 				break;
 			case 3:
-				System.out.println(userAcc.getBalance());
+				userAcc.dispAccountDetails();
+				// System.out.println(userAcc.getBalance());
 				break;
 			case 4:
 				System.out.println("\nThank you for banking with us today :)");
 				System.exit(1);
 			default:
 				System.out.println("Please choose the right option");
-				break;
 			}
 		} while (userChoice != 4);
 
