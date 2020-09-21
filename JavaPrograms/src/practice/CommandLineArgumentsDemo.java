@@ -1,6 +1,6 @@
 package practice;
 
-public class DemoCommandLineArguments {
+public class CommandLineArgumentsDemo {
 
 	public static void main(String[] args) {
 		

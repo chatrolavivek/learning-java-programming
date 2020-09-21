@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class digitsSum {
+public class SumDigits {
 
 	public static void main(String[] args) {
 

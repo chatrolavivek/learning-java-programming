@@ -1,6 +1,6 @@
 package practice;
 
-public class DemoCommandPromt {
+public class CommandPromtDemo {
 	public static void main(String[] args) {
 		System.out.println("Class CommandPromtPractice");
 	}
