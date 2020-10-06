@@ -40,7 +40,6 @@ public class AccountMain {
 			case 2:
 				System.out.println("Enter the amount to be withdrawn: ");
 				withdrawAmount = s.nextInt();
-				System.out.println(userAcc.getBalance());
 				System.out.println(withdrawAmount);
 				if (withdrawAmount > userAcc.getBalance()) {
 					System.out.println("Sorry! You don't have enough balance ):");

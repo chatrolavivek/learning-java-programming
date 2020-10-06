@@ -4,11 +4,13 @@ public class Account1 {
 
 	private int accountId, accountBalance;
 	private String accountType;
+	private Customer customer;
 
 	// Set the values to these attributes
-	public Account1(int accountId, String accountType, int accountBalance) {
+	public Account1(int accountId, String accountType, Customer customer, int accountBalance) {
 		this.accountId = accountId;
 		this.accountType = accountType;
+		this.customer = customer;
 		this.accountBalance = accountBalance;
 	}
 
@@ -17,8 +19,7 @@ public class Account1 {
 	}
 
 	// Displays account details
-	public void dispAccountDetails(int custId, String custName, String custAddress) {
-		Customer customer = new Customer(custId, custName, custAddress);
+	public void dispAccountDetails() {
 		customer.display();
 		System.out.println("Account ID: " + accountId);
 		System.out.println("Account Type: " + accountType);
